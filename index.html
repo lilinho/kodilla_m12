@@ -1,11 +1,38 @@
 <!DOCTYPE HTML>
 <html lang="pl">
+
 <head>
     <meta charset="UTF-8">
     <title>AJAX and API</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script type="text/javascript" src="js/scripts.js"></script>
 </head>
+
 <body>
-    
+    <div class="container">
+        <h1>Search Country Engine</h1>
+        <form>
+            <div class="form-group row">
+                <label class="col-sm-4 col-form-label">Country name</label>
+                <div class="col-sm-6">
+                <input type="text" class="form-control" id="countryName" placeholder="Enter country name">
+                </div>
+                <div class="col-sm-2">
+                    <button type="button" class="btn btn-dark" id="search">Search</button>
+                </div>
+            </div>
+        </form>
+        <div class="countries-list">
+        <h2>List of countries</h2>
+        <ul id="countries">
+            <li>No data</li>
+        </ul>
+        </div>
+    </div>
 </body>
+
 </html>

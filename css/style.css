@@ -1,0 +1,16 @@
+body {
+    background-color: burlywood;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.form-group, .countries-list{
+    width: 500px;
+    padding: 20px;
+    margin: 20px auto;
+}
+#countries li {
+    list-style-type: none;
+}
